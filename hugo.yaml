@@ -1,13 +1,16 @@
-baseurl: https://nyogjtrc.github.io/
-title: "Nyo's Study Book"
+baseurl: https://nyorc.github.io/
+title: "Nyo Study Notes"
 languageCode: zh-tw
 theme: "PaperMod"
-paginate: 20
+pagination:
+  pagerSize: 20
 
 taxonomies:
   tag: tags
 
-googleAnalytics: G-1XXW38NEN1
+services:
+  googleAnalytics:
+    id: G-7YNMKV1QWG
 hasCJKLanguage: true
 permalinks:
   posts: /posts/:year/:month/:filename/
@@ -21,16 +24,15 @@ markup:
 
 params:
   env: production
-  title: "Nyo's Study Book"
+  title: "Nyo Study Notes"
+  description: study notes from nyo. nyo 的學習筆記
+  keywords: [nyo, nyorc, coding, linux, go, php, vim, devops, study, software development]
   author: nyo
-  description: nyo's study note. researching programming, devops, vim ...etc
-  keywords: [nyo, nyogjtrc, blog, developer, personal, linux, go, php]
   DateFormat: "02 January 2006"
-
-  comments: true
-
   defaultTheme: auto
   disableThemeToggle: false
+
+  comments: true
 
   ShowReadingTime: true
   disableSpecial1stPost: true
@@ -39,9 +41,7 @@ params:
 
   socialIcons:
     - name: Github
-      url: https://github.com/nyogjtrc
-    - name: Twitter
-      url: https://twitter.com/nyogjtrc
+      url: https://github.com/nyorc
     - name: rss
       url: /index.xml
 

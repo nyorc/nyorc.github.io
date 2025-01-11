@@ -64,7 +64,7 @@ who: world
 `meta/main.yml`: 這份 role 的基本資訊、依賴 role 等資訊
 ```yml
 galaxy_info:
-  author: nyogjtrc
+  author: nyorc
   description: this is a practice for writing ansible role
 
   license: MIT
