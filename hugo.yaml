@@ -10,7 +10,7 @@ taxonomies:
 
 services:
   googleAnalytics:
-    id: G-7YNMKV1QWG
+    id: G-PX7BXNPXQW
 hasCJKLanguage: true
 permalinks:
   posts: /posts/:year/:month/:filename/
