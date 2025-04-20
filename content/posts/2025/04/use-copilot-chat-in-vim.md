@@ -1,5 +1,5 @@
 ---
-title: "Use Copilot Chat in Vim"
+title: "在 Vim 使用 Copilot Chat"
 date: 2025-04-20T19:59:15+08:00
 tags: [vim, copilot]
 ---
