@@ -12,7 +12,7 @@ build:
 .PHONY: new-post
 new-post:
 ifdef POST
-	hugo new --logLevel info posts/$$(date +%Y/%m)/$$(echo $(POST) | sed 's/ /-/g').md
+	hugo new --logLevel info posts/$$(date +%Y/%m)/$$(echo $(POST) | sed 's/ /-/g' | tr '[:upper:]' '[:lower:]').md
 endif
 ifndef POST
 	@echo empty post title
