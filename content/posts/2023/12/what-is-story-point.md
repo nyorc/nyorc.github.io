@@ -3,7 +3,7 @@ title: "什麼是估點"
 date: 2023-12-04T23:18:15+08:00
 tags: [story point]
 ---
-> 在 [團隊的估點(Story Point)經歷 | Nyo's Study Book](https://nyogjtrc.github.io/posts/2022/05/a-story-of-the-team-using-story-point/) 這篇分享過一些估點的經驗，今天回頭過來介紹什麼是估點
+> 在 [團隊的估點(Story Point)經歷 | Nyo's Study Book](https://nyorc.github.io/posts/2022/05/a-story-of-the-team-using-story-point/) 這篇分享過一些估點的經驗，今天回頭過來介紹什麼是估點
 
 軟體開發往往會遇到評估開發時程的難題，直覺上多數人都會以「工時」進行估計。但現實是開發過程總是會遇到各式各樣的問題，讓估計跟現實有很大的差距。
 

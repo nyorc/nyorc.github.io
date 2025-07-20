@@ -101,7 +101,7 @@ $ protoc --go_out=plugins=grpc:. proto/*.proto
 import 剛剛產生的 echo.pb.go
 ```go
 import (
-	pb "github.com/nyogjtrc/grpc-example/proto"
+	pb "github.com/nyorc/grpc-example/proto"
 )
 ```
 
@@ -128,7 +128,7 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/nyogjtrc/grpc-example/proto"
+	pb "github.com/nyorc/grpc-example/proto"
 
 	"google.golang.org/grpc"
 )
@@ -169,7 +169,7 @@ import (
 	"log"
 	"os"
 
-	pb "github.com/nyogjtrc/grpc-example/proto"
+	pb "github.com/nyorc/grpc-example/proto"
 	"google.golang.org/grpc"
 )
 

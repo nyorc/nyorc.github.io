@@ -6,7 +6,7 @@ tags: [hugo, github, github actions]
 
 上次的 blog 大改造應該是在 [用 Hugo 發佈部落格](/posts/2017/09/publish-blog-with-hugo-generator/) 這時做的，也經過了快 5 年了。
 
-原本我的 nyogjtrc.github.io 發佈方式是另開了一個 repository 存放 markdown，再把 hugo 產生的靜態檔案指定到 nyogjtrc.github.io 這個 repository。Github Pages 設定是選擇從 nyogjtrc.github.io 這個repository 的 master 分支部署。步驟其實不多，但還不是完全的自動發佈。
+原本我的 nyorc.github.io 發佈方式是另開了一個 repository 存放 markdown，再把 hugo 產生的靜態檔案指定到 nyorc.github.io 這個 repository。Github Pages 設定是選擇從 nyorc.github.io 這個repository 的 master 分支部署。步驟其實不多，但還不是完全的自動發佈。
 
 去年(2022) Github 的文章 [GitHub Pages now uses Actions by default | The GitHub Blog](https://github.blog/2022-08-10-github-pages-now-uses-actions-by-default/) 提到 Github Pages 已經完全使用 Github Actions 進行部署了。
 

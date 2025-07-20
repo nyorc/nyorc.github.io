@@ -23,7 +23,7 @@ ORM 是一種把 **資料庫** 對應到 **程式物件** 的技術，可以讓�
 
 GORM 是 Go 裡面熱門的 ORM 套件之一
 
-ps. 我練習的程式碼在此 https://github.com/nyogjtrc/practice-go/tree/master/using-gorm
+ps. 我練習的程式碼在此 https://github.com/nyorc/practice-go/tree/master/using-gorm
 
 ## 定義資料表結構
 

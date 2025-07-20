@@ -108,7 +108,7 @@ func (e *Error) Error() string {
 
 ### Full Example
 
-https://github.com/nyogjtrc/practice-go/tree/master/error-code
+https://github.com/nyorc/practice-go/tree/master/error-code
 
 
 ### Reference

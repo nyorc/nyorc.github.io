@@ -64,7 +64,7 @@ $ git commit -m 'update submodule'
 
 ## 總結
 
-附上 我自己的 vimrc https://github.com/nyogjtrc/vimrc
+附上 我自己的 vimrc https://github.com/nyorc/vimrc
 
 有機會再來試試 vundle
 

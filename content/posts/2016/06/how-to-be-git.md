@@ -9,5 +9,5 @@ tags: [git]
 
 ## 連結
 
-- web page: https://nyogjtrc.github.io/howtobegit/
-- github: https://github.com/nyogjtrc/howtobegit
+- web page: https://nyorc.github.io/howtobegit/
+- github: https://github.com/nyorc/howtobegit

@@ -27,6 +27,6 @@ ps. 這邊是我已經建立倉庫再回來截圖
 
 ### 個人資訊畫面
 
-https://github.com/nyogjtrc
+https://github.com/nyorc
 
 ![](/posts/2020/07/show-profile.png)

@@ -70,13 +70,13 @@ fwup BIOS 更新軟體
 
 ```
 $ sudo apt install -y git
-$ git clone git@github.com:nyogjtrc/dotfiles.git .dotfiles
+$ git clone git@github.com:nyorc/dotfiles.git .dotfiles
 ```
 ## 安裝常用的 cli 程式
 
 `$ ~/.dotfiles/installation/basic.sh`
 
-https://github.com/nyogjtrc/dotfiles/blob/master/installation/basic.sh
+https://github.com/nyorc/dotfiles/blob/master/installation/basic.sh
 
 ## 安裝 gcin 輸入法
 

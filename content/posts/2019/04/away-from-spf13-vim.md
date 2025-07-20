@@ -83,7 +83,7 @@ let mapleader = ',' " Replace leader to ',', default leader is '\'
 
 ## 結語
 
-我的 vimrc 在我的 dotfiles 裡面 https://github.com/nyogjtrc/dotfiles/blob/master/vim/vimrc
+我的 vimrc 在我的 dotfiles 裡面 https://github.com/nyorc/dotfiles/blob/master/vim/vimrc
 
 回顧一下四年前自己整理曾經整理過的 vimrc ，當時才只有 87 行。
 

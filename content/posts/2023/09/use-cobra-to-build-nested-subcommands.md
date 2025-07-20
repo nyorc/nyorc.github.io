@@ -61,7 +61,7 @@ package cmd
 import (
 	"os"
 
-	"github.com/nyogjtrc/practice-go/nested-subcommands/cmd/tools"
+	"github.com/nyorc/practice-go/nested-subcommands/cmd/tools"
 	"github.com/spf13/cobra"
 )
 
@@ -126,7 +126,7 @@ func init() {
 }
 ```
 
-source code: https://github.com/nyogjtrc/practice-go/tree/main/nested-subcommands
+source code: https://github.com/nyorc/practice-go/tree/main/nested-subcommands
 
 ## Reference
 - https://github.com/spf13/cobra

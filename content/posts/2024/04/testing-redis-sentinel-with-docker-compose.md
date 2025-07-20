@@ -360,7 +360,7 @@ redis-sentinel-lab-app-1  | client info laddr 172.26.0.8:6379
 以上是對 redis sentinel 的小型測試。測試過程讓我們了解 redis sentinel 是如何實現容錯移轉 (failover) 機制以滿足高可用性。
 
 
-測試檔案都放到我的 github repository 裡: [nyogjtrc/redis-sentinel-lab](https://github.com/nyogjtrc/redis-sentinel-lab)
+測試檔案都放到我的 github repository 裡: [nyorc/redis-sentinel-lab](https://github.com/nyorc/redis-sentinel-lab)
 
 
 ## Reference

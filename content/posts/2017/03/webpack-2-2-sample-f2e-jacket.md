@@ -5,12 +5,12 @@ tags: [webpack, react]
 ---
 不小心看到 webpack 2.2 發佈，就來小玩一下，用 webpack 打包一個 front end 開發工具
 
-專案在此: f2e-jacket https://github.com/nyogjtrc/f2e-jacket
+專案在此: f2e-jacket https://github.com/nyorc/f2e-jacket
 
 使用方法:
 
 ```bash
-$ git clone git@github.com:nyogjtrc/f2e-jacket.git
+$ git clone git@github.com:nyorc/f2e-jacket.git
 $ cd f2e-jacket/
 $ yarn
 $ yarn start
@@ -28,6 +28,6 @@ $ yarn start
 也是可以直接拿來用的…
 
 ## Reference
-- https://github.com/nyogjtrc/f2e-jacket
+- https://github.com/nyorc/f2e-jacket
 - https://webpack.js.org/
 - https://github.com/facebookincubator/create-react-app

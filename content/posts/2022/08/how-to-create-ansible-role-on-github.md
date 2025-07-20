@@ -78,7 +78,7 @@ galaxy_info:
 
 我們可以使用 `ansible-galaxy install git+網址` 來安裝我們寫好的 role
 ```sh
-$ ansible-galaxy install git+https://github.com/nyogjtrc/ansible-hello
+$ ansible-galaxy install git+https://github.com/nyorc/ansible-hello
 Starting galaxy role install process
 - extracting ansible-hello to /Users/nyo/.ansible/roles/ansible-hello
 - ansible-hello was installed successfully
@@ -86,7 +86,7 @@ Starting galaxy role install process
 
 ps. 如果沒有 `meta/main.yml` 就無法用 `ansible-galaxy install` 安裝
 ```sh
-$ ansible-galaxy install git+https://github.com/nyogjtrc/ansible-hello
+$ ansible-galaxy install git+https://github.com/nyorc/ansible-hello
 Starting galaxy role install process
 [WARNING]: - ansible-hello was NOT installed successfully: this role does not appear to have a meta/main.yml file.
 ```

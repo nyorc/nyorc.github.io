@@ -50,9 +50,9 @@ $vi ~/.bashrc
 
 ```sh
 # for ns2
-export PATH=$PATH:/home/nyogjtrc/ns-allinone-2.33/bin:/home/nyogjtrc/ns-allinone-2.33/tcl8.4.14/unix:/home/nyogjtrc/ns-allinone-2.33/tk8.4.14/unix  
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/nyogjtrc/ns-allinone-2.33/otcl-1.13:/home/nyogjtrc/ns-allinone-2.33/lib  
-export TCL_LIBRARY=$TCL_LIBRARY:/home/nyogjtrc/ns-allinone-2.33/tcl8.4.14/library
+export PATH=$PATH:/home/nyorc/ns-allinone-2.33/bin:/home/nyorc/ns-allinone-2.33/tcl8.4.14/unix:/home/nyorc/ns-allinone-2.33/tk8.4.14/unix  
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/nyorc/ns-allinone-2.33/otcl-1.13:/home/nyorc/ns-allinone-2.33/lib  
+export TCL_LIBRARY=$TCL_LIBRARY:/home/nyorc/ns-allinone-2.33/tcl8.4.14/library
 ```
 
   

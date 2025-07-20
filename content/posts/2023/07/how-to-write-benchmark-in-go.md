@@ -107,7 +107,7 @@ func BenchmarkDecode2Map(b *testing.B) {
 go test -bench=. -count=5 -benchmem
 goos: darwin
 goarch: amd64
-pkg: github.com/nyogjtrc/practice-go/example-benchmark
+pkg: github.com/nyorc/practice-go/example-benchmark
 cpu: Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
 BenchmarkSum-8                  448784319                2.662 ns/op           0 B/op          0 allocs/op
 BenchmarkSum-8                  446790114                2.732 ns/op           0 B/op          0 allocs/op
@@ -125,7 +125,7 @@ BenchmarkDecode2Map-8            1010119              1204 ns/op             616
 BenchmarkDecode2Map-8             893706              1208 ns/op             616 B/op         14 allocs/op
 BenchmarkDecode2Map-8             954352              1195 ns/op             616 B/op         14 allocs/op
 PASS
-ok      github.com/nyogjtrc/practice-go/example-benchmark       24.121s
+ok      github.com/nyorc/practice-go/example-benchmark       24.121s
 ```
 
 輸出結果說明

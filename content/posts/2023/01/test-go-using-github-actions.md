@@ -54,7 +54,7 @@ jobs:
 
 再來看看我修改好的 workflow 檔案
 
-檔案: https://github.com/nyogjtrc/deciduous/blob/master/.github/workflows/go.yml
+檔案: https://github.com/nyorc/deciduous/blob/master/.github/workflows/go.yml
 ```yml
 name: Go
 
