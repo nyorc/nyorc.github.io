@@ -14,9 +14,11 @@ Claude Code 的多工場景變成常態的情況下，有各式各樣跟 Claude 
 
 ## 分割畫面可以同時看到更多的資訊
 
-使用 tmux 把 terminal 切成左右兩個畫面，目前習慣是左邊開 Claude Code 右邊開 vim，有需要翻 git 記錄時右邊再上下切半。可以把 vim 的文字直接複製到 Claude Code 裡，或是 claude code 還在處理資料時，可以在另一邊做其他的事情。
+使用 tmux 把 terminal 切成左右兩個畫面，目前習慣是左邊開 Claude Code 右邊開 vim，有需要翻 git 記錄時右邊再上下切半。可以把 vim 的文字直接複製到 Claude Code 裡，或是 Claude Code 還在處理資料時，可以在另一邊做其他的事情。
 
-順帶一提 claude code 也能操作 tmux，如果在右邊的畫面有 error message，Claude Code 是有辦法直接讀取，只要 prompt 有提示它要去哪邊看 error message 就行。
+![左邊 Claude Code、右邊 vim 的 tmux 分割畫面](/posts/2026/04/use-claudecode-in-tmux.png)
+
+順帶一提 Claude code 也能操作 tmux，如果在右邊的畫面有 error message，Claude Code 是有辦法直接讀取，只要 prompt 有提示它要去哪邊看 error message 就行。
 
 ## 保留 session 在背景工作
 
@@ -42,7 +44,7 @@ set -g mouse on
 
 以下是我的一些快捷鍵設定
 - 水平、垂直分割畫面，切割上、下、左、右側邊的 sidebar
-- 在分割的畫面之間以 ctrl + h,j,k,l 移動遊標 (支援 vim) 
+- 在分割的畫面之間以 ctrl + h,j,k,l 移動遊標 (支援 vim)
 
 ```bash
 # split window with | and -
@@ -66,7 +68,6 @@ bind-key -n C-j if-shell "$is_vim" "send-keys C-j"  "select-pane -D"
 bind-key -n C-k if-shell "$is_vim" "send-keys C-k"  "select-pane -U"
 bind-key -n C-l if-shell "$is_vim" "send-keys C-l"  "select-pane -R"
 bind-key -n C-\\ if-shell "$is_vim" "send-keys C-\\\\" "select-pane -l"
-
 ```
 
 搭配 tmux 原有的快捷鍵，基本上很夠用
@@ -79,5 +80,4 @@ bind-key -n C-\\ if-shell "$is_vim" "send-keys C-\\\\" "select-pane -l"
 看過其他工具或是別人的經驗分享，感覺是大同小異，目前使用下來感覺算是很舒服的。
 
 當然還是有一些情境可以再做一點調整，目前覺得可以再補充的功能是: 開很多 Claude Code session 時，沒有辦法可以一次看到全部的 Claude Code session 狀態。當做下次的筆記主題吧。
-
 
