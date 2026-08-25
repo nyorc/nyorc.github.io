@@ -36,7 +36,7 @@ func BenchmarkSum(b *testing.B) {
 
 ## 執行 benckmark
 - 執行 `go test` 指令加上 `-bench` 參數
-- `-bench` 一樣支援使用正規表達式，執行符合的測試
+- `-bench` 一樣支援使用正規表示式，執行符合的測試
 
 ```bash
 go test -bench=.

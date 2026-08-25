@@ -10,7 +10,7 @@ tags: [makefile]
 
 script 的概念很簡單，以 `##@` 標記開頭的會當做 target 群組文字，以 `##` 字串開頭接在 target 後面來寫說明，再使用可以處理文字的指令把標記跟說明文字找出來。
 
-實際上可以有 N 種寫法，從純 shell script 到使用 python, perl 等等的 script language 都是可以的，不過還是讓 script 對環境的要求簡單一點會比較實用。
+實際上可以有 N 種寫法，從純 shell script 到使用 Python, Perl 等等的 script language 都是可以的，不過還是讓 script 對環境的要求簡單一點會比較實用。
 
 以下整理了幾種常見指令的版本，並在 macOS 上測過是可以運作的。
 
@@ -87,7 +87,7 @@ Development
 
 語法說明
 
-- `FS` 以正規表達式當欄位分隔符號
+- `FS` 以正規表示式當欄位分隔符號
 
 ## shell
 
